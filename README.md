@@ -18,6 +18,6 @@ A demonstration of our constructed Transformer is in [`main.ipynb`](https://gith
 
 For each task, we test our construction for a few example inputs, where the constructed Transformer computes their corresponding CoTs. We extract the output answer (`output`) from each CoT and compare it with the true answer (`answer`); `AC` means that the output answer is correct. Feel free to try other inputs by modifying the `inputs` argument of the `Tester` class. 
 
-**Note:** If you see wrong answers (`WA`), please increase the precision of floating-point operations (`args.fp_round` and `args.fp_guard`).
+**Note:** If you see wrong answers (`WA`) or encounter any error, please increase the precision of floating-point operations (`args.fp_round` and `args.fp_guard`).
 
 More descriptions coming soon...
