@@ -11,7 +11,7 @@
 }
 ```
 
-A demonstration of our constructed Transformer is in `main.ipynb`. We provide two example tasks:
+A demonstration of our constructed Transformer is in [`main.ipynb`](https://github.com/q-rz/ICLR25-prompting-theory/blob/main/main.ipynb). We provide two example tasks:
 
 1. Computing the Parity function: the XOR of all input bits.
 2. Deciding the Dyck language: balanced parenthesis sequences (`0` as `(`, `1` as `)`).
