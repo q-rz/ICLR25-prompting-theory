@@ -1,6 +1,17 @@
-# Turing completeness of prompting
+# On the Turing completeness of prompting
 
-The implementation of the constructed Transformer is in `main.ipynb`. We provide two example tasks:
+[![Our paper at ICLR 2025](https://github.com/q-rz/ICLR25-prompting-theory/raw/main/assets/img.shields.io%20badge%202025-ICLR-60C332.svg)](https://openreview.net/forum?id=AS8SPTyBgw) [![Our paper on arXiv](https://github.com/q-rz/ICLR25-prompting-theory/raw/main/assets/img.shields.io%20badge%202411.01992-arXiv-B31B1B.svg)](https://arxiv.org/abs/2411.01992)
+
+```bibtex
+@inproceedings{qiu2025ask,
+  title={Ask, and it shall be given: On the {Turing} completeness of prompting},
+  authors={Qiu, Ruizhong and Xu, Zhe and Bao, Wenxuan and Tong, Hanghang},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
+```
+
+A demonstration of our constructed Transformer is in `main.ipynb`. We provide two example tasks:
 
 1. Computing the Parity function: the XOR of all input bits.
 2. Deciding the Dyck language: balanced parenthesis sequences (`0` as `(`, `1` as `)`).
